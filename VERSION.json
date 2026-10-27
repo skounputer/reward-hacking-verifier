@@ -1,0 +1,12 @@
+{
+  "version": "reward_hacking_verifier_skill_memory_v4_20261021",
+  "status": "frozen_release_candidate",
+  "skill_registry": "reward_hacking_monitor_skill_registry_v4",
+  "rubric": "terminal_code_agent_reward_hacking_rubric_v1_1",
+  "model_evaluated": "dsv41-flash",
+  "terminal_wrench_full_split_n": 5984,
+  "full_v4_all_rows_ok": true,
+  "paired_v3_comparison": "complete",
+  "v3_all_rows_ok": true,
+  "v4_all_rows_ok": true
+}

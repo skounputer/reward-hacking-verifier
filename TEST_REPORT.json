@@ -1,0 +1,31 @@
+{
+  "generated_date": "2026-10-21",
+  "skill_memory_runtime": {
+    "tests": 9,
+    "passed": 9,
+    "failed": 0
+  },
+  "verifier_core": {
+    "tests": 43,
+    "passed": 43,
+    "failed": 0,
+    "note": "8 pipeline tests require localhost loopback and were rerun outside the restricted sandbox"
+  },
+  "configuration": {
+    "domain_skills": 6,
+    "automatic_skill": "evidence_sufficiency",
+    "memory_cards": 7,
+    "mechanisms": 6
+  },
+  "full_evaluation": {
+    "v3_ok": 5984,
+    "v4_ok": 5984,
+    "v4_positive_verdicts": 3467,
+    "v4_all_evidence_grounded": 3437,
+    "v4_evidence_grounding_rate": 0.9913469858667436
+  },
+  "logs": [
+    "SKILL_MEMORY_TESTS.log",
+    "VERIFIER_CORE_TESTS.log"
+  ]
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "source": "reward_hacking_rules.py",
+    "destination": "vendor/reward_hacking_rules.py",
+    "source_sha256": "5678ad5a604e5b37712cd5b28addc75a6a0b05928e8583e33dabade77e1f197b",
+    "snapshot_sha256": "5678ad5a604e5b37712cd5b28addc75a6a0b05928e8583e33dabade77e1f197b",
+    "adaptation": "exact copy"
+  },
+  {
+    "source": "reward_hacking_v3.py",
+    "destination": "vendor/v3.py",
+    "source_sha256": "6ae2eb184e5ec10dc5a39409b6df595b334a46226d02863c172cfd4bec483e0f",
+    "snapshot_sha256": "6ae2eb184e5ec10dc5a39409b6df595b334a46226d02863c172cfd4bec483e0f",
+    "adaptation": "exact copy"
+  },
+  {
+    "source": "model_service.py",
+    "destination": "vendor/model_service.py",
+    "source_sha256": "ab26624ac45f9e6393165c6dc9be8d56326e1277638ade650ba68762af43501f",
+    "snapshot_sha256": "3d6ec656f007d4c76c1accd7ed1d44b183114e4e56389dbe853f234b89dbccbd",
+    "adaptation": "exact copy; public-release configuration anonymization",
+    "original_snapshot_sha256": "ab26624ac45f9e6393165c6dc9be8d56326e1277638ade650ba68762af43501f"
+  },
+  {
+    "source": "reward_hacking.py",
+    "destination": "vendor/transport.py",
+    "source_sha256": "2faca4c40cbaba837ff06da017e16ef4e42a8cc708914e41b6c43b6de96a0159",
+    "snapshot_sha256": "b448b25acc204b2e5c4fc7c2417bc83c7b0d65102e0c4d7d33b5c923758db5b5",
+    "adaptation": "imports relocated; unused project entry points/constants omitted; public-release configuration anonymization; normalize trailing blank lines",
+    "original_snapshot_sha256": "5f9386d102a77ceed93cd7e95ace184680deffff7321e4c3e3b382c8e4d93fa8"
+  },
+  {
+    "source": "sft_judge.py",
+    "destination": "vendor/sft_judge.py",
+    "source_sha256": "d8cd77187af39250298c496eaeb49144bb4995a2313605308907346044d0235c",
+    "snapshot_sha256": "bfb8c2e0a17de05d014bbec0db6e195748a6dad616904b77a8ed7e8870f3c0e8",
+    "adaptation": "imports relocated; unused project entry points/constants omitted; normalize trailing blank lines",
+    "original_snapshot_sha256": "ba27aee8ffbe63941013a9907c0ba27a3e2c4f6fee0995c35e55378459ca49c4"
+  },
+  {
+    "source": "prepare_sft.py",
+    "destination": "vendor/prepare_sft.py",
+    "source_sha256": "76c2328bdaa765e69ce53cdb2745d1f4e95513c0d5a8432e414499a963efceed",
+    "snapshot_sha256": "8a25ec312af26027977ef36c3b9d148d9639b9393655cb3673ba8a322ef7521e",
+    "adaptation": "imports relocated; unused project entry points/constants omitted"
+  },
+  {
+    "source": "prepare_tb.py",
+    "destination": "vendor/prepare_tb.py",
+    "source_sha256": "7c8736c1c0ef26da235bf4b5da43c2edd49f94511ff47e48cf7f878ab6efa76e",
+    "snapshot_sha256": "c40ad9e3bb9b14d278f718bbd09c9db63e67d4839784c4092a6a41907d802ea8",
+    "adaptation": "imports relocated; unused project entry points/constants omitted; normalize trailing blank lines",
+    "original_snapshot_sha256": "ab50e9d4bf6817651b29ba19fa30c30ecc9bce86b36626aa87374f977f32ed30"
+  },
+  {
+    "source": "batch_receipts.py",
+    "destination": "vendor/batch_receipts.py",
+    "source_sha256": "c10b398320c223641fb57aa42c9aa4cb089729a52e10b617366976d85a13d467",
+    "snapshot_sha256": "6ca881d85a2810c3feeef40987cbdcc6bb7cbb5f5c32fde72c464bdb094129f3",
+    "adaptation": "imports relocated; unused project entry points/constants omitted; normalize trailing blank lines",
+    "original_snapshot_sha256": "449e06792f653e3b8863ee1035c489955dfcaf07ef314c9d5b9ed125203b7026"
+  },
+  {
+    "source": "tb_judge.py",
+    "destination": "vendor/tb_judge.py",
+    "source_sha256": "1020835394763a8baf9d45b92f9c7a65da11cb56512b5630868387eb71c9d698",
+    "snapshot_sha256": "e13d52b9ac670f47fd1e288954073b700d20cf286fcf84827bb6aef13591009b",
+    "adaptation": "imports relocated; unused project entry points/constants omitted; normalize trailing blank lines",
+    "original_snapshot_sha256": "f0efdb21017a03f7e1aa52e993b4ebe7e926e74ded07469066d2a231c48bc3ed"
+  },
+  {
+    "source": "prepare_paired.py",
+    "destination": "vendor/sanitize.py",
+    "source_sha256": "f3bf94f21b8d6e8e527238203f8544aa1aeac33d0e2927f1b1c4cf2edcc8dd58",
+    "snapshot_sha256": "588b6531246fc4567bbb7a4898420ad2927e5fd8164e0297ca87fbcdc676075e",
+    "adaptation": "imports relocated; unused project entry points/constants omitted; normalize trailing blank lines",
+    "original_snapshot_sha256": "abde75d1150539a1d8c0b700aba18372428cbcd5f01aae095c2bb6acdefadf3b"
+  },
+  {
+    "source": "midtrain_full_workflow.py",
+    "destination": "vendor/midtrain_adapter.py",
+    "source_sha256": "9e6abc7fdf87591b4e1c20c7a3636f80e968b619124ab886a7ed00815fa5516e",
+    "snapshot_sha256": "33d72cf86a2b161b13e75aea99be9f51d79530f6aa8481c203842766d4131eee",
+    "adaptation": "imports relocated; unused project entry points/constants omitted; normalize trailing blank lines",
+    "original_snapshot_sha256": "d5255a8ffe3cd582224ae058a2572c85604bba26d4d582bc18b418462c5ff9aa"
+  },
+  {
+    "source": "rh_candidate_rules_v4.py",
+    "destination": "rh_candidate_rules_v4.py",
+    "source_sha256": "1d98fafa0d0457c447e48f90a0e38652e9e3424224199a6778845fd7540d77e5",
+    "snapshot_sha256": "1d98fafa0d0457c447e48f90a0e38652e9e3424224199a6778845fd7540d77e5",
+    "adaptation": "exact copy"
+  },
+  {
+    "source": "rh_candidate_rules_v5.py",
+    "destination": "rh_candidate_rules_v5.py",
+    "source_sha256": "39c4a9b8c10b37e8d045edc0c0fa522f3c9c694c2bed45a16b3a6aa7d41c30fa",
+    "snapshot_sha256": "39c4a9b8c10b37e8d045edc0c0fa522f3c9c694c2bed45a16b3a6aa7d41c30fa",
+    "adaptation": "exact copy"
+  },
+  {
+    "source": "rh_candidate_signatures_v4.json",
+    "destination": "rh_candidate_signatures_v4.json",
+    "source_sha256": "c83129274280fffe240332380ee6016fd4d7f44d9441b41be74add2f86143cb3",
+    "snapshot_sha256": "c83129274280fffe240332380ee6016fd4d7f44d9441b41be74add2f86143cb3",
+    "adaptation": "exact copy"
+  },
+  {
+    "source": "test_rh_candidate_rules_v4.py",
+    "destination": "test_rh_candidate_rules_v4.py",
+    "source_sha256": "1669817b777c182c6b4392621ea33c53a906b7a8a27618071a21e8bc1287efbe",
+    "snapshot_sha256": "1669817b777c182c6b4392621ea33c53a906b7a8a27618071a21e8bc1287efbe",
+    "adaptation": "exact copy"
+  },
+  {
+    "source": "test_rh_candidate_rules_v5.py",
+    "destination": "test_rh_candidate_rules_v5.py",
+    "source_sha256": "54faa10f40acfac90d19f9020d832ed92f1c5b2611be2d07c3e6d497c7ae990e",
+    "snapshot_sha256": "54faa10f40acfac90d19f9020d832ed92f1c5b2611be2d07c3e6d497c7ae990e",
+    "adaptation": "exact copy"
+  },
+  {
+    "source": "offline_audit_concurrency.py",
+    "destination": "offline_audit_concurrency.py",
+    "source_sha256": "a3f469a55cfbeb90b1a14974464edfc89d7653baae83a3705ce5154ff6efead6",
+    "snapshot_sha256": "a3f469a55cfbeb90b1a14974464edfc89d7653baae83a3705ce5154ff6efead6",
+    "adaptation": "exact copy"
+  }
+]

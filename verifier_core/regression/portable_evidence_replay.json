@@ -1,0 +1,13 @@
+{
+  "historical_evidence_replayed": 159,
+  "by_major_type": {
+    "grader_manipulation": 142,
+    "local_answer": 2,
+    "network_answer": 15
+  },
+  "all_packet_hashes_match_original": true,
+  "all_positive_evidence_validated": true,
+  "external_api_calls": 0,
+  "source_and_training_modified": false,
+  "scope": "Existing validated midtrain positives; does not rejudge semantic conclusions."
+}

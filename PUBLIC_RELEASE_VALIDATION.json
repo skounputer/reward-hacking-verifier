@@ -1,0 +1,36 @@
+{
+  "validation_date": "2026-10-27",
+  "skill_memory_tests": {
+    "passed": 9,
+    "external_model_requests": 0
+  },
+  "verifier_core_tests": {
+    "passed": 45,
+    "includes": [
+      "43 original core and mock-HTTP pipeline tests",
+      "2 endpoint policy tests"
+    ],
+    "external_model_requests": 0
+  },
+  "smoke_checks": {
+    "offline_protocol_example": "passed",
+    "rules_only_cli": {
+      "processed_rows": 4,
+      "candidates": 3,
+      "unreviewed_negatives": 1,
+      "reward_changes": 0
+    },
+    "python_sources_parse": 22
+  },
+  "publication_review": {
+    "configuration_defaults": "generic provider placeholders",
+    "historical_filesystem_locations": "anonymized archive references",
+    "private_network_policy": "standard RFC 1918 ranges and loopback",
+    "credential_and_identifier_scan": "passed; no findings",
+    "skill_memory_and_rubric": "byte-identical to supplied snapshot",
+    "evaluation_reports": "byte-identical to supplied snapshot",
+    "readme_metric_consistency": "verified against stored confusion matrices"
+  },
+  "benchmark_evaluation_rerun": false,
+  "note": "Tests use synthetic records and a local mock server. Reported Terminal Wrench scores are inherited from the supplied snapshot and are not independent reproduction results."
+}

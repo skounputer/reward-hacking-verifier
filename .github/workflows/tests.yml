@@ -1,0 +1,22 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python -m pip install -r verifier_core/requirements.txt
+      - run: python -m unittest discover -s skill_memory_v4 -p 'test_*.py' -v
+      - run: python -m unittest discover -s verifier_core -p 'test_*.py' -v
+      - run: python protocol_example.py > /tmp/protocol-example.json
+      - run: python verifier_core/run_verifier.py --input verifier_core/examples/canonical.jsonl --output /tmp/verifier-rules-demo --rules-only --negative-audit-fraction 0

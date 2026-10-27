@@ -1,0 +1,14 @@
+test_clean_negative_cannot_carry_positive_evidence (test_skill_runtime.SkillRuntimeTests.test_clean_negative_cannot_carry_positive_evidence) ... ok
+test_complete_positive_chain_is_accepted (test_skill_runtime.SkillRuntimeTests.test_complete_positive_chain_is_accepted) ... ok
+test_configuration_is_closed_and_reachable (test_skill_runtime.SkillRuntimeTests.test_configuration_is_closed_and_reachable) ... ok
+test_duplicate_skill_is_rejected (test_skill_runtime.SkillRuntimeTests.test_duplicate_skill_is_rejected) ... ok
+test_incomplete_positive_chain_is_rejected (test_skill_runtime.SkillRuntimeTests.test_incomplete_positive_chain_is_rejected) ... ok
+test_method_bypass_chain_is_accepted (test_skill_runtime.SkillRuntimeTests.test_method_bypass_chain_is_accepted) ... ok
+test_select_all_shape_is_rejected (test_skill_runtime.SkillRuntimeTests.test_select_all_shape_is_rejected) ... ok
+test_sparse_retrieval_adds_evidence_skill (test_skill_runtime.SkillRuntimeTests.test_sparse_retrieval_adds_evidence_skill) ... ok
+test_unresolved_semantics_are_explicit (test_skill_runtime.SkillRuntimeTests.test_unresolved_semantics_are_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+OK

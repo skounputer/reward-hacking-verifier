@@ -1,0 +1,119 @@
+{
+  "version": "rh_candidate_v5_20261016_6",
+  "generated_at": "2026-10-16T17:30:06.239777+08:00",
+  "all_records": {
+    "rows": 774,
+    "v4_hits": 768,
+    "v5_hits": 774,
+    "general_hits": 773,
+    "matching_family_hits": 773,
+    "known_positive_recall": 1.0,
+    "missed_keys": [],
+    "family_miss_keys": [
+      "midtrain:midtrain-full:000063137:95bacaa55fe2d1c8"
+    ]
+  },
+  "by_status": {
+    "historical_positive": {
+      "rows": 610,
+      "v4_hits": 610,
+      "v5_hits": 610,
+      "general_hits": 609,
+      "matching_family_hits": 610,
+      "known_positive_recall": 1.0,
+      "missed_keys": [],
+      "family_miss_keys": []
+    },
+    "legacy_exposure_not_confirmed_use": {
+      "rows": 5,
+      "v4_hits": 5,
+      "v5_hits": 5,
+      "general_hits": 5,
+      "matching_family_hits": 5,
+      "known_positive_recall": 1.0,
+      "missed_keys": [],
+      "family_miss_keys": []
+    },
+    "live_midtrain_initial": {
+      "rows": 159,
+      "v4_hits": 153,
+      "v5_hits": 159,
+      "general_hits": 159,
+      "matching_family_hits": 158,
+      "known_positive_recall": 1.0,
+      "missed_keys": [],
+      "family_miss_keys": [
+        "midtrain:midtrain-full:000063137:95bacaa55fe2d1c8"
+      ]
+    }
+  },
+  "historical_by_major_type": {
+    "network_answer": {
+      "rows": 590,
+      "v4_hits": 590,
+      "v5_hits": 590,
+      "general_hits": 590,
+      "matching_family_hits": 590,
+      "known_positive_recall": 1.0,
+      "missed_keys": [],
+      "family_miss_keys": []
+    },
+    "local_answer": {
+      "rows": 9,
+      "v4_hits": 9,
+      "v5_hits": 9,
+      "general_hits": 9,
+      "matching_family_hits": 9,
+      "known_positive_recall": 1.0,
+      "missed_keys": [],
+      "family_miss_keys": []
+    },
+    "grader_manipulation": {
+      "rows": 11,
+      "v4_hits": 11,
+      "v5_hits": 11,
+      "general_hits": 10,
+      "matching_family_hits": 11,
+      "known_positive_recall": 1.0,
+      "missed_keys": [],
+      "family_miss_keys": []
+    }
+  },
+  "rule_counts": {
+    "grader.extended_mutation_target": 442,
+    "grader.test_or_scoring_mutation": 499,
+    "grader.protected_patch_path": 307,
+    "local.generator_or_fixture_source": 6,
+    "local.git_objects_or_history": 493,
+    "net.address_in_action": 485,
+    "local.installed_source_or_cache": 434,
+    "net.http_cli": 332,
+    "net.transfer_receipt_hint": 128,
+    "net.package_acquisition": 455,
+    "net.language_client": 270,
+    "net.remote_vcs": 160,
+    "net.socket_or_transfer": 26,
+    "local.answer_hint_in_return": 10,
+    "net.aliased_client_call": 3,
+    "local.answer_path": 31,
+    "grader.runtime_environment_override": 89,
+    "local.alternate_storage_or_resource": 26,
+    "grader.runtime_or_import_mutation": 17,
+    "grader.extended_runtime_target": 7,
+    "grader.task_input_mutation": 10,
+    "supplemental.bidirectional_crossings_under_positive_constraint": 1,
+    "grader.checker_inspection": 6,
+    "grader.prohibited_method_call": 5,
+    "grader.deleted_or_renamed_patch_path": 1
+  },
+  "api_calls": 0,
+  "training_modified": false,
+  "seconds": 120.18248583935201,
+  "corpus_manifest_sha256": "546dd97535bc8095e5121724535a762f15634a398df86b93637def6402db608d",
+  "rules_sha256": "39c4a9b8c10b37e8d045edc0c0fa522f3c9c694c2bed45a16b3a6aa7d41c30fa",
+  "limits": [
+    "Known-positive regression coverage is not a guaranteed future recall.",
+    "Rules only nominate candidates. LLM evidence review decides YES/NO; uncertain evidence stays unresolved.",
+    "Historical final positives, live unreviewed model positives, and exposure-only legacy records have separate denominators."
+  ]
+}

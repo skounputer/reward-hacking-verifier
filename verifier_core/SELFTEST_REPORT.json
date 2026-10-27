@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-10-16T20:21:40.985907+08:00",
+  "rules_version": "rh_candidate_v5_20261016_6",
+  "unit_and_local_http_tests_passed": 43,
+  "test_log": "TESTS.log",
+  "external_api_calls": 0,
+  "real_llm_semantic_rejudging_performed": false,
+  "existing_midtrain_evidence_revalidation": {
+    "historical_evidence_replayed": 159,
+    "by_major_type": {
+      "grader_manipulation": 142,
+      "local_answer": 2,
+      "network_answer": 15
+    },
+    "all_packet_hashes_match_original": true,
+    "all_positive_evidence_validated": true,
+    "external_api_calls": 0,
+    "source_and_training_modified": false,
+    "scope": "Existing validated midtrain positives; does not rejudge semantic conclusions."
+  },
+  "known_positive_candidate_coverage": {
+    "historical": {
+      "hits": 610,
+      "rows": 610
+    },
+    "midtrain": {
+      "hits": 159,
+      "rows": 159
+    },
+    "general_rules": {
+      "hits": 768,
+      "rows": 769
+    },
+    "case_supplement": 1,
+    "future_population_recall_established": false
+  },
+  "isolated_extracted_run_verified": true,
+  "training_modified": false,
+  "contains_api_credentials": false,
+  "isolated_tests_passed": 43,
+  "isolated_cli_rule_only_run_verified": true,
+  "private_project_imports_required": false,
+  "finalized_at": "2026-10-16T20:23:13.279525+08:00",
+  "tested_python_sources_sha256": {
+    "rh_candidate_rules_v4.py": "1d98fafa0d0457c447e48f90a0e38652e9e3424224199a6778845fd7540d77e5",
+    "test_rh_candidate_rules_v4.py": "1669817b777c182c6b4392621ea33c53a906b7a8a27618071a21e8bc1287efbe",
+    "run_verifier.py": "cf447db22ade80c9f49a06c331e068befed4a68d456a832f123d43d2dbd450b7",
+    "test_pipeline.py": "31392db1192785105be8fa2c7553e67dc3a306f33d7392f7645ca4b0ad1f8572",
+    "rh_candidate_rules_v5.py": "39c4a9b8c10b37e8d045edc0c0fa522f3c9c694c2bed45a16b3a6aa7d41c30fa",
+    "test_rh_candidate_rules_v5.py": "54faa10f40acfac90d19f9020d832ed92f1c5b2611be2d07c3e6d497c7ae990e",
+    "offline_audit_concurrency.py": "a3f469a55cfbeb90b1a14974464edfc89d7653baae83a3705ce5154ff6efead6",
+    "vendor/prepare_tb.py": "ab50e9d4bf6817651b29ba19fa30c30ecc9bce86b36626aa87374f977f32ed30",
+    "vendor/transport.py": "5f9386d102a77ceed93cd7e95ace184680deffff7321e4c3e3b382c8e4d93fa8",
+    "vendor/midtrain_adapter.py": "d5255a8ffe3cd582224ae058a2572c85604bba26d4d582bc18b418462c5ff9aa",
+    "vendor/sft_judge.py": "ba27aee8ffbe63941013a9907c0ba27a3e2c4f6fee0995c35e55378459ca49c4",
+    "vendor/tb_judge.py": "f0efdb21017a03f7e1aa52e993b4ebe7e926e74ded07469066d2a231c48bc3ed",
+    "vendor/prepare_sft.py": "8a25ec312af26027977ef36c3b9d148d9639b9393655cb3673ba8a322ef7521e",
+    "vendor/batch_receipts.py": "449e06792f653e3b8863ee1035c489955dfcaf07ef314c9d5b9ed125203b7026",
+    "vendor/sanitize.py": "abde75d1150539a1d8c0b700aba18372428cbcd5f01aae095c2bb6acdefadf3b",
+    "vendor/__init__.py": "8e3c188ed6db08e8d62e1c478c7e04f9cb857b872e7fce5ccb3ae10fab0fb2c9",
+    "vendor/model_service.py": "ab26624ac45f9e6393165c6dc9be8d56326e1277638ade650ba68762af43501f",
+    "vendor/reward_hacking_rules.py": "5678ad5a604e5b37712cd5b28addc75a6a0b05928e8583e33dabade77e1f197b",
+    "vendor/v3.py": "6ae2eb184e5ec10dc5a39409b6df595b334a46226d02863c172cfd4bec483e0f"
+  },
+  "public_release_note": "This is a historical report for the original snapshot. Original tested-source hashes are retained for provenance; current public-release checks are recorded in ../PUBLIC_RELEASE_VALIDATION.json."
+}

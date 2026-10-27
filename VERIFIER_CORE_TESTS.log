@@ -1,0 +1,56 @@
+test_changed_model_or_input_rejects_stale_resume (test_pipeline.PipelineTests.test_changed_model_or_input_rejects_stale_resume) ... {"complete": true, "processed_rows": 1, "disposition_counts": {"LLM_NO": 1}, "major_type_counts": {}, "reward_1_to_0": 0}
+ok
+test_end_to_end_rules_judge_evidence_reward_and_resume (test_pipeline.PipelineTests.test_end_to_end_rules_judge_evidence_reward_and_resume) ... {"complete": true, "processed_rows": 4, "disposition_counts": {"RULE_NEGATIVE_UNREVIEWED": 1, "LLM_NO": 1, "HACKING": 2}, "major_type_counts": {"network_answer": 1, "grader_manipulation": 1}, "reward_1_to_0": 2}
+{"complete": true, "processed_rows": 4, "disposition_counts": {"RULE_NEGATIVE_UNREVIEWED": 1, "LLM_NO": 1, "HACKING": 2}, "major_type_counts": {"network_answer": 1, "grader_manipulation": 1}, "reward_1_to_0": 2}
+ok
+test_incomplete_trace_and_bad_schema_are_not_clean (test_pipeline.PipelineTests.test_incomplete_trace_and_bad_schema_are_not_clean) ... {"complete": true, "processed_rows": 2, "disposition_counts": {"UNRESOLVED": 2}, "major_type_counts": {}, "reward_1_to_0": 0}
+ok
+test_midtrain_xml_and_terminal_json_adapters (test_pipeline.PipelineTests.test_midtrain_xml_and_terminal_json_adapters) ... {"complete": true, "processed_rows": 2, "disposition_counts": {"RULE_NEGATIVE_UNREVIEWED": 2}, "major_type_counts": {}, "reward_1_to_0": 0}
+ok
+test_nonexistent_evidence_ids_are_held_not_accepted (test_pipeline.PipelineTests.test_nonexistent_evidence_ids_are_held_not_accepted) ... {"complete": true, "processed_rows": 1, "disposition_counts": {"UNRESOLVED": 1}, "major_type_counts": {}, "reward_1_to_0": 0}
+ok
+test_only_confirmed_hacking_reward_one_is_zeroed (test_pipeline.PipelineTests.test_only_confirmed_hacking_reward_one_is_zeroed) ... ok
+test_quota_stops_dispatch_and_leaves_remaining_rows_pending (test_pipeline.PipelineTests.test_quota_stops_dispatch_and_leaves_remaining_rows_pending) ... {"complete": false, "processed_rows": 1, "disposition_counts": {"UNRESOLVED": 1, "PENDING": 9}, "major_type_counts": {}, "reward_1_to_0": 0}
+ok
+test_rules_only_never_calls_api_or_accepts_candidates (test_pipeline.PipelineTests.test_rules_only_never_calls_api_or_accepts_candidates) ... {"complete": true, "processed_rows": 4, "disposition_counts": {"RULE_NEGATIVE_UNREVIEWED": 1, "CANDIDATE_NOT_JUDGED": 3}, "major_type_counts": {}, "reward_1_to_0": 0}
+ok
+test_actual_shell_and_python_targets (test_rh_candidate_rules_v4.CandidateRulesTests.test_actual_shell_and_python_targets) ... ok
+test_incomplete_not_no_and_zero_reward_needs_no_judge (test_rh_candidate_rules_v4.CandidateRulesTests.test_incomplete_not_no_and_zero_reward_needs_no_judge) ... ok
+test_input_read_and_output_write_are_not_input_mutation (test_rh_candidate_rules_v4.CandidateRulesTests.test_input_read_and_output_write_are_not_input_mutation) ... ok
+test_labels_and_identity_never_change_candidates (test_rh_candidate_rules_v4.CandidateRulesTests.test_labels_and_identity_never_change_candidates) ... ok
+test_local_answers_beyond_git (test_rh_candidate_rules_v4.CandidateRulesTests.test_local_answers_beyond_git) ... ok
+test_network_syntax_across_tools_and_languages (test_rh_candidate_rules_v4.CandidateRulesTests.test_network_syntax_across_tools_and_languages) ... ok
+test_new_diagnostic_patch_does_not_mean_grader_modified (test_rh_candidate_rules_v4.CandidateRulesTests.test_new_diagnostic_patch_does_not_mean_grader_modified) ... ok
+test_opaque_network_caught_by_actual_host_record (test_rh_candidate_rules_v4.CandidateRulesTests.test_opaque_network_caught_by_actual_host_record) ... ok
+test_ordinary_execution_does_not_admit_every_action (test_rh_candidate_rules_v4.CandidateRulesTests.test_ordinary_execution_does_not_admit_every_action) ... ok
+test_reading_public_tests_or_discarding_stderr_does_not_imply_tampering (test_rh_candidate_rules_v4.CandidateRulesTests.test_reading_public_tests_or_discarding_stderr_does_not_imply_tampering) ... ok
+test_returned_environment_hint_not_assistant_prose (test_rh_candidate_rules_v4.CandidateRulesTests.test_returned_environment_hint_not_assistant_prose) ... ok
+test_sampling_is_reproducible_and_not_forced_all (test_rh_candidate_rules_v4.CandidateRulesTests.test_sampling_is_reproducible_and_not_forced_all) ... ok
+test_synthetic_input_and_generator_source_generalize_paths (test_rh_candidate_rules_v4.CandidateRulesTests.test_synthetic_input_and_generator_source_generalize_paths) ... ok
+test_task_conditioned_case_signature (test_rh_candidate_rules_v4.CandidateRulesTests.test_task_conditioned_case_signature) ... ok
+test_test_and_runtime_mutations_are_candidates_not_convictions (test_rh_candidate_rules_v4.CandidateRulesTests.test_test_and_runtime_mutations_are_candidates_not_convictions) ... ok
+test_trusted_manifest_and_host_file_observer (test_rh_candidate_rules_v4.CandidateRulesTests.test_trusted_manifest_and_host_file_observer) ... ok
+test_unobserved_opaque_network_is_not_claimed_detected (test_rh_candidate_rules_v4.CandidateRulesTests.test_unobserved_opaque_network_is_not_claimed_detected) ... ok
+test_alias_clients_in_actual_commands (test_rh_candidate_rules_v5.StructuredRoutingTests.test_alias_clients_in_actual_commands) ... ok
+test_builtin_modular_inverse_is_not_assumed_to_avoid_euclid (test_rh_candidate_rules_v5.StructuredRoutingTests.test_builtin_modular_inverse_is_not_assumed_to_avoid_euclid) ... ok
+test_deleted_and_renamed_test_patch (test_rh_candidate_rules_v5.StructuredRoutingTests.test_deleted_and_renamed_test_patch) ... ok
+test_fixture_editor_and_alternate_git_storage (test_rh_candidate_rules_v5.StructuredRoutingTests.test_fixture_editor_and_alternate_git_storage) ... ok
+test_giant_non_shell_payload_never_enters_shell_tokenizer (test_rh_candidate_rules_v5.StructuredRoutingTests.test_giant_non_shell_payload_never_enters_shell_tokenizer) ... ok
+test_incomplete_no_hit_remains_unresolved (test_rh_candidate_rules_v5.StructuredRoutingTests.test_incomplete_no_hit_remains_unresolved) ... ok
+test_manual_only_constraint_does_not_route_every_python_action (test_rh_candidate_rules_v5.StructuredRoutingTests.test_manual_only_constraint_does_not_route_every_python_action) ... ok
+test_metadata_cannot_force_positive_and_inputs_are_unchanged (test_rh_candidate_rules_v5.StructuredRoutingTests.test_metadata_cannot_force_positive_and_inputs_are_unchanged) ... ok
+test_method_constraint_requires_visible_policy_and_action (test_rh_candidate_rules_v5.StructuredRoutingTests.test_method_constraint_requires_visible_policy_and_action) ... ok
+test_new_diagnostic_patch_and_normal_execution (test_rh_candidate_rules_v5.StructuredRoutingTests.test_new_diagnostic_patch_and_normal_execution) ... ok
+test_openai_function_envelope_and_editor_alias (test_rh_candidate_rules_v5.StructuredRoutingTests.test_openai_function_envelope_and_editor_alias) ... ok
+test_patch_tool_and_mutation_of_source_of_rename (test_rh_candidate_rules_v5.StructuredRoutingTests.test_patch_tool_and_mutation_of_source_of_rename) ... ok
+test_read_only_batch_and_embedded_examples_do_not_become_calls (test_rh_candidate_rules_v5.StructuredRoutingTests.test_read_only_batch_and_embedded_examples_do_not_become_calls) ... ok
+test_real_midtrain_batch_network_and_protected_edit (test_rh_candidate_rules_v5.StructuredRoutingTests.test_real_midtrain_batch_network_and_protected_edit) ... ok
+test_reference_directory_is_a_candidate_not_a_verdict (test_rh_candidate_rules_v5.StructuredRoutingTests.test_reference_directory_is_a_candidate_not_a_verdict) ... ok
+test_testsuite_expectation_edits_and_read_only_controls (test_rh_candidate_rules_v5.StructuredRoutingTests.test_testsuite_expectation_edits_and_read_only_controls) ... ok
+test_transfer_return_hint_is_not_a_verdict (test_rh_candidate_rules_v5.StructuredRoutingTests.test_transfer_return_hint_is_not_a_verdict) ... ok
+test_variable_writes_from_globs_and_shell_substitution (test_rh_candidate_rules_v5.StructuredRoutingTests.test_variable_writes_from_globs_and_shell_substitution) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 8.574s
+
+OK

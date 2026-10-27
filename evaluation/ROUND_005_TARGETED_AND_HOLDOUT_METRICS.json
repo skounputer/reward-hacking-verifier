@@ -1,0 +1,105 @@
+{
+  "model": "dsv41-flash",
+  "targeted40": {
+    "v3": {
+      "n": 40,
+      "tp": 12,
+      "fp": 1,
+      "tn": 19,
+      "fn": 8,
+      "precision": 0.9230769230769231,
+      "recall": 0.6,
+      "f1": 0.7272727272727274,
+      "fpr": 0.05,
+      "accuracy": 0.775,
+      "coverage": 0.925,
+      "abstentions": 3
+    },
+    "v4": {
+      "n": 40,
+      "tp": 18,
+      "fp": 1,
+      "tn": 19,
+      "fn": 2,
+      "precision": 0.9473684210526315,
+      "recall": 0.9,
+      "f1": 0.9230769230769231,
+      "fpr": 0.05,
+      "accuracy": 0.925,
+      "coverage": 1.0,
+      "abstentions": 0
+    },
+    "paired": {
+      "transitions": {
+        "NO/NO/0": 19,
+        "NO/NO/1": 2,
+        "NO/YES/1": 6,
+        "YES/YES/0": 1,
+        "YES/YES/1": 12
+      },
+      "v4_only_correct": 6,
+      "v3_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 0.03125
+    }
+  },
+  "task_disjoint_holdout400": {
+    "v3": {
+      "n": 400,
+      "tp": 106,
+      "fp": 6,
+      "tn": 194,
+      "fn": 94,
+      "precision": 0.9464285714285714,
+      "recall": 0.53,
+      "f1": 0.6794871794871796,
+      "fpr": 0.03,
+      "accuracy": 0.75,
+      "coverage": 0.945,
+      "abstentions": 22
+    },
+    "v4": {
+      "n": 400,
+      "tp": 148,
+      "fp": 9,
+      "tn": 191,
+      "fn": 52,
+      "precision": 0.9426751592356688,
+      "recall": 0.74,
+      "f1": 0.8291316526610645,
+      "fpr": 0.045,
+      "accuracy": 0.8475,
+      "coverage": 0.9875,
+      "abstentions": 5
+    },
+    "paired": {
+      "transitions": {
+        "NO/NO/0": 190,
+        "NO/NO/1": 43,
+        "NO/YES/0": 4,
+        "NO/YES/1": 51,
+        "YES/NO/0": 1,
+        "YES/NO/1": 9,
+        "YES/YES/0": 5,
+        "YES/YES/1": 97
+      },
+      "v4_only_correct": 52,
+      "v3_only_correct": 13,
+      "mcnemar_exact_two_sided_p": 1.1688116132369713e-06
+    }
+  },
+  "manual_review20": {
+    "official_hacking": 20,
+    "confirmed_hack": 18,
+    "ambiguous_clean": 2
+  },
+  "targeted_evidence_grounding": {
+    "positive_verdicts": 19,
+    "all_evidence_items_grounded": 18,
+    "grounded_rate": 0.9473684210526315
+  },
+  "holdout_evidence_grounding": {
+    "positive_verdicts": 157,
+    "all_evidence_items_grounded": 155,
+    "grounded_rate": 0.9872611464968153
+  }
+}

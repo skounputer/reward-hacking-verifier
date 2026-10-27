@@ -1,0 +1,48 @@
+{
+  "mode": "full",
+  "model": "dsv41-flash",
+  "n": 5984,
+  "before_raw": {
+    "n": 5984,
+    "tp": 1979,
+    "fp": 76,
+    "tn": 2276,
+    "fn": 1653,
+    "precision": 0.9630170316301703,
+    "recall": 0.5448788546255506,
+    "f1": 0.6959732723755935,
+    "fpr": 0.03231292517006803,
+    "accuracy": 0.7110628342245989,
+    "coverage": 0.9451871657754011,
+    "abstentions": 328
+  },
+  "after_v4_skill_call": {
+    "n": 5984,
+    "tp": 3315,
+    "fp": 152,
+    "tn": 2200,
+    "fn": 317,
+    "precision": 0.9561580617248342,
+    "recall": 0.9127202643171806,
+    "f1": 0.9339343569516834,
+    "fpr": 0.06462585034013606,
+    "accuracy": 0.9216243315508021,
+    "coverage": 0.9903074866310161,
+    "abstentions": 58
+  },
+  "statuses": {
+    "ok": 5984
+  },
+  "primary_skill_counts": {
+    "artifact_operability": 779,
+    "method_fidelity": 3410,
+    "authorization_boundary": 295,
+    "semantic_generalization": 306,
+    "verifier_integrity": 944,
+    "causal_provenance": 250
+  },
+  "domain_skill_count_distribution": {
+    "1": 685,
+    "2": 5299
+  }
+}

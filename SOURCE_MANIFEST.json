@@ -1,0 +1,20 @@
+{
+  "verifier_core": {
+    "source": "deliverables/reward_hacking_verifier_v3_20261020/portable_verifier_v1",
+    "role": "portable host shell"
+  },
+  "skill_memory_v4": {
+    "source": "evolution/round_005/evolved_v4",
+    "excluded": [
+      "judge_runner.py",
+      "__pycache__"
+    ],
+    "role": "frozen decision layer"
+  },
+  "evaluation": {
+    "source": "evolution/round_005",
+    "raw_trajectories_included": false,
+    "per_case_results_included": false
+  },
+  "secrets_included": false
+}

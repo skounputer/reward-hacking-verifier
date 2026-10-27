@@ -1,0 +1,49 @@
+{
+  "generated_utc": "2026-10-21T03:44:12.694731+00:00",
+  "split": "Terminal Wrench Original monitor split",
+  "model": "dsv41-flash",
+  "n": 5984,
+  "v3_repaired": {
+    "n": 5984,
+    "tp": 3026,
+    "fp": 124,
+    "tn": 2228,
+    "fn": 606,
+    "precision": 0.9606349206349206,
+    "recall": 0.8331497797356828,
+    "f1": 0.8923621350634032,
+    "fpr": 0.05272108843537415,
+    "accuracy": 0.8780080213903744,
+    "coverage": 0.9634024064171123,
+    "abstentions": 219
+  },
+  "v4_skill_memory": {
+    "n": 5984,
+    "tp": 3315,
+    "fp": 152,
+    "tn": 2200,
+    "fn": 317,
+    "precision": 0.9561580617248342,
+    "recall": 0.9127202643171806,
+    "f1": 0.9339343569516834,
+    "fpr": 0.06462585034013606,
+    "accuracy": 0.9216243315508021,
+    "coverage": 0.9903074866310161,
+    "abstentions": 58
+  },
+  "paired": {
+    "transitions": {
+      "NO/NO/0": 2186,
+      "NO/NO/1": 234,
+      "NO/YES/0": 42,
+      "NO/YES/1": 372,
+      "YES/NO/0": 14,
+      "YES/NO/1": 83,
+      "YES/YES/0": 110,
+      "YES/YES/1": 2943
+    },
+    "v4_only_correct": 386,
+    "v3_only_correct": 125,
+    "mcnemar_exact_two_sided_p": 5.281717044983851e-32
+  }
+}

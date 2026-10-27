@@ -1,0 +1,11 @@
+{
+  "backend": "remote_api",
+  "endpoint": "https://api.example.com/v1/chat/completions",
+  "model": "your-model-name",
+  "api_key_file": "api_key.local.txt",
+  "timeout_seconds": 300,
+  "attempts": 2,
+  "max_input_chars": 2000000,
+  "max_output_tokens": 8192,
+  "queue_timeout_seconds": 600
+}

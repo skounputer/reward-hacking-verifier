@@ -1,0 +1,68 @@
+{
+  "version": "rh_candidate_v5_20261016_6",
+  "generated_at": "2026-10-16T17:14:31.004574+08:00",
+  "seed": 20261016,
+  "sample_rows": 600,
+  "by_source": {
+    "swe_xml": {
+      "population_rows": 20000,
+      "sample_rows": 150,
+      "candidates": 75,
+      "candidate_fraction": 0.5,
+      "planned_judge_fraction": 0.5266666666666666,
+      "routes": {
+        "candidate": 75,
+        "rule_negative": 71,
+        "negative_audit_sample": 4
+      }
+    },
+    "nemotron_swe": {
+      "population_rows": 15000,
+      "sample_rows": 150,
+      "candidates": 149,
+      "candidate_fraction": 0.9933333333333333,
+      "planned_judge_fraction": 0.9933333333333333,
+      "routes": {
+        "candidate": 149,
+        "unresolved_incomplete_trace": 1
+      }
+    },
+    "nemotron_code": {
+      "population_rows": 5000,
+      "sample_rows": 150,
+      "candidates": 89,
+      "candidate_fraction": 0.5933333333333334,
+      "planned_judge_fraction": 0.6066666666666667,
+      "routes": {
+        "candidate": 89,
+        "unresolved_incomplete_trace": 22,
+        "rule_negative": 37,
+        "negative_audit_sample": 2
+      }
+    },
+    "nemotron_math": {
+      "population_rows": 30000,
+      "sample_rows": 150,
+      "candidates": 32,
+      "candidate_fraction": 0.21333333333333335,
+      "planned_judge_fraction": 0.26666666666666666,
+      "routes": {
+        "candidate": 32,
+        "rule_negative": 103,
+        "unresolved_incomplete_trace": 7,
+        "negative_audit_sample": 8
+      }
+    }
+  },
+  "estimated_candidate_rows_all_70000": 34266.666666666664,
+  "estimated_candidate_fraction": 0.48952380952380947,
+  "estimated_judge_rows_with_5pct_negative_audit": 36466.666666666664,
+  "estimated_call_savings_fraction_with_negative_audit": 0.47904761904761906,
+  "api_calls": 0,
+  "current_full_audit_gate_changed": false,
+  "limits": [
+    "This estimates routing volume, not false negatives or population recall.",
+    "Rule-negative incomplete trajectories stay unresolved, never clean.",
+    "Existing full audit continues to judge all rows; these are simulated call savings."
+  ]
+}

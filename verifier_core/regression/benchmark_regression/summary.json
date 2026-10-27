@@ -1,0 +1,517 @@
+{
+  "version": "rh_candidate_v5_20261016_6",
+  "known_labels_used_by_gate": false,
+  "api_calls": 0,
+  "runtime_training_modified": false,
+  "negative_sampling_fraction": 0.05,
+  "datasets": {
+    "swe_generated_train1000": {
+      "rows": 1000,
+      "confirmed_positive": 227,
+      "general_rule_positive_hits": 227,
+      "combined_rule_positive_hits": 227,
+      "matching_major_family_positive_hits": 227,
+      "known_positive_recall": 1.0,
+      "candidate_rows": 937,
+      "candidate_fraction": 0.937,
+      "calls_avoided_before_negative_sampling": 63,
+      "negative_audit_sample_rows": 2,
+      "planned_judge_rows_with_negative_sampling": 939,
+      "unflagged_incomplete_rows": 42,
+      "candidate_final_labels": {
+        "NO": 671,
+        "YES": 227,
+        "UNRESOLVED": 39
+      },
+      "candidate_by_major_hint": {
+        "network_answer": 692,
+        "local_answer": 704,
+        "grader_manipulation": 859
+      },
+      "missed_positive_ids": [],
+      "raw_reward1_only": {
+        "rows": 355,
+        "confirmed_positive": 136,
+        "general_rule_positive_hits": 136,
+        "combined_rule_positive_hits": 136,
+        "matching_major_family_positive_hits": 136,
+        "known_positive_recall": 1.0,
+        "candidate_rows": 345,
+        "candidate_fraction": 0.971830985915493,
+        "calls_avoided_before_negative_sampling": 10,
+        "negative_audit_sample_rows": 1,
+        "planned_judge_rows_with_negative_sampling": 346,
+        "unflagged_incomplete_rows": 3,
+        "candidate_final_labels": {
+          "NO": 198,
+          "YES": 136,
+          "UNRESOLVED": 11
+        },
+        "candidate_by_major_hint": {
+          "network_answer": 242,
+          "local_answer": 243,
+          "grader_manipulation": 318
+        },
+        "missed_positive_ids": []
+      }
+    },
+    "swebench_eval500": {
+      "rows": 500,
+      "confirmed_positive": 97,
+      "general_rule_positive_hits": 97,
+      "combined_rule_positive_hits": 97,
+      "matching_major_family_positive_hits": 97,
+      "known_positive_recall": 1.0,
+      "candidate_rows": 463,
+      "candidate_fraction": 0.926,
+      "calls_avoided_before_negative_sampling": 37,
+      "negative_audit_sample_rows": 2,
+      "planned_judge_rows_with_negative_sampling": 465,
+      "unflagged_incomplete_rows": 16,
+      "candidate_final_labels": {
+        "NO": 240,
+        "YES": 97,
+        "UNRESOLVED": 126
+      },
+      "candidate_by_major_hint": {
+        "network_answer": 155,
+        "local_answer": 250,
+        "grader_manipulation": 444
+      },
+      "missed_positive_ids": [],
+      "raw_reward1_only": {
+        "rows": 415,
+        "confirmed_positive": 87,
+        "general_rule_positive_hits": 87,
+        "combined_rule_positive_hits": 87,
+        "matching_major_family_positive_hits": 87,
+        "known_positive_recall": 1.0,
+        "candidate_rows": 386,
+        "candidate_fraction": 0.9301204819277108,
+        "calls_avoided_before_negative_sampling": 29,
+        "negative_audit_sample_rows": 2,
+        "planned_judge_rows_with_negative_sampling": 388,
+        "unflagged_incomplete_rows": 9,
+        "candidate_final_labels": {
+          "NO": 200,
+          "YES": 87,
+          "UNRESOLVED": 99
+        },
+        "candidate_by_major_hint": {
+          "network_answer": 136,
+          "local_answer": 204,
+          "grader_manipulation": 369
+        },
+        "missed_positive_ids": []
+      }
+    },
+    "sft_mixed857": {
+      "rows": 857,
+      "confirmed_positive": 1,
+      "general_rule_positive_hits": 1,
+      "combined_rule_positive_hits": 1,
+      "matching_major_family_positive_hits": 1,
+      "known_positive_recall": 1.0,
+      "candidate_rows": 825,
+      "candidate_fraction": 0.9626604434072346,
+      "calls_avoided_before_negative_sampling": 32,
+      "negative_audit_sample_rows": 0,
+      "planned_judge_rows_with_negative_sampling": 825,
+      "unflagged_incomplete_rows": 0,
+      "candidate_final_labels": {
+        "NO": 792,
+        "UNRESOLVED": 32,
+        "YES": 1
+      },
+      "candidate_by_major_hint": {
+        "network_answer": 556,
+        "local_answer": 475,
+        "grader_manipulation": 698
+      },
+      "missed_positive_ids": [],
+      "raw_reward1_only": {
+        "rows": 0,
+        "confirmed_positive": 0,
+        "general_rule_positive_hits": 0,
+        "combined_rule_positive_hits": 0,
+        "matching_major_family_positive_hits": 0,
+        "known_positive_recall": null,
+        "candidate_rows": 0,
+        "candidate_fraction": null,
+        "calls_avoided_before_negative_sampling": 0,
+        "negative_audit_sample_rows": 0,
+        "planned_judge_rows_with_negative_sampling": 0,
+        "unflagged_incomplete_rows": 0,
+        "candidate_final_labels": {},
+        "candidate_by_major_hint": {
+          "network_answer": 0,
+          "local_answer": 0,
+          "grader_manipulation": 0
+        },
+        "missed_positive_ids": []
+      }
+    },
+    "terminalbench_eval267": {
+      "rows": 267,
+      "confirmed_positive": 7,
+      "general_rule_positive_hits": 7,
+      "combined_rule_positive_hits": 7,
+      "matching_major_family_positive_hits": 7,
+      "known_positive_recall": 1.0,
+      "candidate_rows": 181,
+      "candidate_fraction": 0.6779026217228464,
+      "calls_avoided_before_negative_sampling": 86,
+      "negative_audit_sample_rows": 5,
+      "planned_judge_rows_with_negative_sampling": 186,
+      "unflagged_incomplete_rows": 0,
+      "candidate_final_labels": {
+        "NO": 173,
+        "YES": 7,
+        "UNRESOLVED": 1
+      },
+      "candidate_by_major_hint": {
+        "network_answer": 120,
+        "local_answer": 54,
+        "grader_manipulation": 79
+      },
+      "missed_positive_ids": [],
+      "raw_reward1_only": {
+        "rows": 190,
+        "confirmed_positive": 5,
+        "general_rule_positive_hits": 5,
+        "combined_rule_positive_hits": 5,
+        "matching_major_family_positive_hits": 5,
+        "known_positive_recall": 1.0,
+        "candidate_rows": 126,
+        "candidate_fraction": 0.6631578947368421,
+        "calls_avoided_before_negative_sampling": 64,
+        "negative_audit_sample_rows": 1,
+        "planned_judge_rows_with_negative_sampling": 127,
+        "unflagged_incomplete_rows": 0,
+        "candidate_final_labels": {
+          "NO": 121,
+          "YES": 5
+        },
+        "candidate_by_major_hint": {
+          "network_answer": 75,
+          "local_answer": 44,
+          "grader_manipulation": 52
+        },
+        "missed_positive_ids": []
+      }
+    },
+    "terminal_paired_train1000": {
+      "rows": 1000,
+      "confirmed_positive": 7,
+      "general_rule_positive_hits": 6,
+      "combined_rule_positive_hits": 7,
+      "matching_major_family_positive_hits": 7,
+      "known_positive_recall": 1.0,
+      "candidate_rows": 634,
+      "candidate_fraction": 0.634,
+      "calls_avoided_before_negative_sampling": 366,
+      "negative_audit_sample_rows": 17,
+      "planned_judge_rows_with_negative_sampling": 651,
+      "unflagged_incomplete_rows": 0,
+      "candidate_final_labels": {
+        "NO": 613,
+        "UNRESOLVED": 14,
+        "YES": 7
+      },
+      "candidate_by_major_hint": {
+        "network_answer": 266,
+        "local_answer": 140,
+        "grader_manipulation": 431
+      },
+      "missed_positive_ids": [],
+      "by_model": {
+        "deepseek": {
+          "rows": 500,
+          "confirmed_positive": 5,
+          "general_rule_positive_hits": 4,
+          "combined_rule_positive_hits": 5,
+          "matching_major_family_positive_hits": 5,
+          "known_positive_recall": 1.0,
+          "candidate_rows": 317,
+          "candidate_fraction": 0.634,
+          "calls_avoided_before_negative_sampling": 183,
+          "negative_audit_sample_rows": 10,
+          "planned_judge_rows_with_negative_sampling": 327,
+          "unflagged_incomplete_rows": 0,
+          "candidate_final_labels": {
+            "NO": 305,
+            "UNRESOLVED": 7,
+            "YES": 5
+          },
+          "candidate_by_major_hint": {
+            "network_answer": 126,
+            "local_answer": 64,
+            "grader_manipulation": 219
+          },
+          "missed_positive_ids": []
+        },
+        "kimi": {
+          "rows": 500,
+          "confirmed_positive": 2,
+          "general_rule_positive_hits": 2,
+          "combined_rule_positive_hits": 2,
+          "matching_major_family_positive_hits": 2,
+          "known_positive_recall": 1.0,
+          "candidate_rows": 317,
+          "candidate_fraction": 0.634,
+          "calls_avoided_before_negative_sampling": 183,
+          "negative_audit_sample_rows": 7,
+          "planned_judge_rows_with_negative_sampling": 324,
+          "unflagged_incomplete_rows": 0,
+          "candidate_final_labels": {
+            "NO": 308,
+            "UNRESOLVED": 7,
+            "YES": 2
+          },
+          "candidate_by_major_hint": {
+            "network_answer": 140,
+            "local_answer": 76,
+            "grader_manipulation": 212
+          },
+          "missed_positive_ids": []
+        }
+      },
+      "raw_reward1_only": {
+        "rows": 875,
+        "confirmed_positive": 7,
+        "general_rule_positive_hits": 6,
+        "combined_rule_positive_hits": 7,
+        "matching_major_family_positive_hits": 7,
+        "known_positive_recall": 1.0,
+        "candidate_rows": 548,
+        "candidate_fraction": 0.6262857142857143,
+        "calls_avoided_before_negative_sampling": 327,
+        "negative_audit_sample_rows": 14,
+        "planned_judge_rows_with_negative_sampling": 562,
+        "unflagged_incomplete_rows": 0,
+        "candidate_final_labels": {
+          "NO": 528,
+          "UNRESOLVED": 13,
+          "YES": 7
+        },
+        "candidate_by_major_hint": {
+          "network_answer": 231,
+          "local_answer": 123,
+          "grader_manipulation": 369
+        },
+        "missed_positive_ids": []
+      }
+    }
+  },
+  "overall": {
+    "rows": 3624,
+    "confirmed_positive": 339,
+    "general_rule_positive_hits": 338,
+    "combined_rule_positive_hits": 339,
+    "matching_major_family_positive_hits": 339,
+    "known_positive_recall": 1.0,
+    "candidate_rows": 3040,
+    "candidate_fraction": 0.8388520971302428,
+    "calls_avoided_before_negative_sampling": 584,
+    "negative_audit_sample_rows": 26,
+    "planned_judge_rows_with_negative_sampling": 3066,
+    "unflagged_incomplete_rows": 58,
+    "candidate_final_labels": {
+      "NO": 2489,
+      "YES": 339,
+      "UNRESOLVED": 212
+    },
+    "candidate_by_major_hint": {
+      "network_answer": 1789,
+      "local_answer": 1623,
+      "grader_manipulation": 2511
+    },
+    "missed_positive_ids": []
+  },
+  "by_confirmed_major_type": {
+    "network_answer": {
+      "rows": 319,
+      "confirmed_positive": 319,
+      "general_rule_positive_hits": 319,
+      "combined_rule_positive_hits": 319,
+      "matching_major_family_positive_hits": 319,
+      "known_positive_recall": 1.0,
+      "candidate_rows": 319,
+      "candidate_fraction": 1.0,
+      "calls_avoided_before_negative_sampling": 0,
+      "negative_audit_sample_rows": 0,
+      "planned_judge_rows_with_negative_sampling": 319,
+      "unflagged_incomplete_rows": 0,
+      "candidate_final_labels": {
+        "YES": 319
+      },
+      "candidate_by_major_hint": {
+        "network_answer": 319,
+        "local_answer": 309,
+        "grader_manipulation": 298
+      },
+      "missed_positive_ids": []
+    },
+    "local_answer": {
+      "rows": 9,
+      "confirmed_positive": 9,
+      "general_rule_positive_hits": 9,
+      "combined_rule_positive_hits": 9,
+      "matching_major_family_positive_hits": 9,
+      "known_positive_recall": 1.0,
+      "candidate_rows": 9,
+      "candidate_fraction": 1.0,
+      "calls_avoided_before_negative_sampling": 0,
+      "negative_audit_sample_rows": 0,
+      "planned_judge_rows_with_negative_sampling": 9,
+      "unflagged_incomplete_rows": 0,
+      "candidate_final_labels": {
+        "YES": 9
+      },
+      "candidate_by_major_hint": {
+        "network_answer": 5,
+        "local_answer": 9,
+        "grader_manipulation": 7
+      },
+      "missed_positive_ids": []
+    },
+    "grader_manipulation": {
+      "rows": 11,
+      "confirmed_positive": 11,
+      "general_rule_positive_hits": 10,
+      "combined_rule_positive_hits": 11,
+      "matching_major_family_positive_hits": 11,
+      "known_positive_recall": 1.0,
+      "candidate_rows": 11,
+      "candidate_fraction": 1.0,
+      "calls_avoided_before_negative_sampling": 0,
+      "negative_audit_sample_rows": 0,
+      "planned_judge_rows_with_negative_sampling": 11,
+      "unflagged_incomplete_rows": 0,
+      "candidate_final_labels": {
+        "YES": 11
+      },
+      "candidate_by_major_hint": {
+        "network_answer": 1,
+        "local_answer": 3,
+        "grader_manipulation": 11
+      },
+      "missed_positive_ids": []
+    }
+  },
+  "historical_regression": {
+    "sources": [
+      {
+        "source": "historical-source-1",
+        "label_file": "archive://historical-source-1/reviewed_1400.jsonl",
+        "label_sha256": "08a38426981d7cbc8d1809955af490c8793dd92ea49e09fd4b7c7e117842acb2",
+        "positive_rows": 79,
+        "available_positive_traces": 79,
+        "positive_hits": 79,
+        "missing_trace_ids": [],
+        "missed_ids": []
+      },
+      {
+        "source": "historical-source-2",
+        "label_file": "archive://historical-source-2/reviewed_1000.jsonl",
+        "label_sha256": "d66bccad72a66e2206900c4c893ef1395f62ddf23fa6cfeca7486a218e435f6e",
+        "positive_rows": 94,
+        "available_positive_traces": 94,
+        "positive_hits": 94,
+        "missing_trace_ids": [],
+        "missed_ids": []
+      },
+      {
+        "source": "historical-source-3",
+        "label_file": "archive://historical-source-3/trial_results.csv",
+        "label_sha256": "3750b7e04605ee3aab70683bdacf48875e5a7a82317607dad71af18653e414a7",
+        "positive_rows": 0,
+        "available_positive_traces": 0,
+        "positive_hits": 0,
+        "missing_trace_ids": [],
+        "missed_ids": []
+      },
+      {
+        "source": "historical-source-4",
+        "label_file": "archive://historical-source-4/trial_results.csv",
+        "label_sha256": "2cf9154c5618be5d982597b6e2b7d7c842bbeaceb727d97386408c7a36af1199",
+        "positive_rows": 88,
+        "available_positive_traces": 88,
+        "positive_hits": 88,
+        "missing_trace_ids": [],
+        "missed_ids": []
+      },
+      {
+        "source": "historical-source-5",
+        "label_file": "archive://historical-source-5/trial_results.csv",
+        "label_sha256": "df24752960042a4b69fe958b7d8fc93f51fb79f6b58d5ad0791c6dffbd801f1a",
+        "positive_rows": 0,
+        "available_positive_traces": 0,
+        "positive_hits": 0,
+        "missing_trace_ids": [],
+        "missed_ids": []
+      },
+      {
+        "source": "historical-source-6",
+        "label_file": "archive://historical-source-6/trial_results.csv",
+        "label_sha256": "28d4e302256130689522c520fc40b62e7f433f8e9aa21a1948b3fb67dac4ed33",
+        "positive_rows": 8,
+        "available_positive_traces": 8,
+        "positive_hits": 8,
+        "missing_trace_ids": [],
+        "missed_ids": []
+      }
+    ],
+    "unique_positive_ids_with_trace": 269,
+    "note": "Historical label policies are retained; this is regression, not a new independent adjudication."
+  },
+  "sources": [
+    {
+      "dataset": "swe_generated_train1000",
+      "canonical": "archive://regression-source-1/canonical.jsonl",
+      "canonical_sha256": "949e1e5a70b7aeda5eb4c5d534afa1bdeeb55754a26d6e1cdf5410b1f0731bea",
+      "labels": "archive://regression-source-1/all_rows.csv",
+      "label_sha256": "d688d1ff2a8ef615975de823293d0213d5ab976fc636f880c18f2e8ccebfbc44"
+    },
+    {
+      "dataset": "swebench_eval500",
+      "canonical": "archive://regression-source-2/canonical.jsonl",
+      "canonical_sha256": "4576c6e8df1839cb3abd96cd55cc833d2ba1f617b8f4c1667a08705c7bb0e8f3",
+      "labels": "archive://regression-source-2/all_rows.csv",
+      "label_sha256": "708658a5d4aea0997c95dcffa24dfff0ac4468eeff669793936b13a76d73faf3"
+    },
+    {
+      "dataset": "sft_mixed857",
+      "canonical": "archive://regression-source-3/canonical.jsonl",
+      "canonical_sha256": "569dc4733b13de40f7861360dbcdecb1c728af0988d154b1aa8bacf847818d31",
+      "labels": "archive://regression-source-3/all_rows.csv",
+      "label_sha256": "31a0f3736a159875e38389caf57a3d405750e55da25b21c4e76d6b5ac23f0388"
+    },
+    {
+      "dataset": "terminalbench_eval267",
+      "canonical": "archive://regression-source-4/canonical.jsonl",
+      "canonical_sha256": "3b8b0ea43d696e9df0425a22dc5eba02752a35ffcea7102488bc65d2aebb454d",
+      "labels": "archive://regression-source-4/all_rows.csv",
+      "label_sha256": "679931208d2f9d669ec2ce468b1004eef9610f6e31c23e1c37d6173b442e8ecc"
+    },
+    {
+      "dataset": "terminal_paired_train1000",
+      "canonical": "archive://regression-source-5/canonical.jsonl",
+      "canonical_sha256": "b0f20a59a577694d46977d751dfd7e3a6fb7e0fbee917d9d96ecf4ca653c6bbe",
+      "labels": "archive://regression-source-5/all_rows.csv",
+      "label_sha256": "a8e00ab7486e6dbf71e254a02c6b7408342006041b08f594256164403a259964"
+    }
+  ],
+  "seconds": 370.22824545390904,
+  "implementation_sha256": "39c4a9b8c10b37e8d045edc0c0fa522f3c9c694c2bed45a16b3a6aa7d41c30fa",
+  "signatures_sha256": "c83129274280fffe240332380ee6016fd4d7f44d9441b41be74add2f86143cb3",
+  "limits": [
+    "Known-positive regression coverage is not a proven future/population 95% recall.",
+    "No-hit is not an LLM-NO. Missing/ambiguous evidence remains unresolved.",
+    "Candidate labels and negative sampling are an offline call-count simulation; no new LLM was invoked.",
+    "Static hints can be false alarms, fail to follow opaque programs, aliases or obfuscation, and do not prove acquisition, use or grader effect.",
+    "Historical traces lack full syscall/file telemetry. Runtime host observations and a protected input/grader manifest improve future coverage.",
+    "The supplemental pattern is a known-case mechanism; no case-ID or verdict lookup is used."
+  ],
+  "public_release_note": "Historical private filesystem locations were replaced with opaque archive references; counts, metrics, and data checksums are unchanged."
+}

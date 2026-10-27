@@ -1,0 +1,6 @@
+{
+  "positive_verdicts": 3467,
+  "all_evidence_items_grounded": 3437,
+  "grounded_rate": 0.9913469858667436,
+  "note": "Coarse A/O batch IDs resolve to a real host batch but are reported as coarse; semantic correctness remains a separate review."
+}
